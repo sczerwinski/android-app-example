@@ -1,0 +1,6 @@
+complexity:
+  LongParameterList:
+    ignoreAnnotated: ['Composable', 'Inject'] # Ignore composable functions and parameters injected into constructors
+naming:
+  FunctionNaming:
+    ignoreAnnotated: ['Composable'] # Composable functions have different naming convention
